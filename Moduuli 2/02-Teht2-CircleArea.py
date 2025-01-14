@@ -1,7 +1,7 @@
 from math import pi
 
-r = float(input("Anna Kehä= "))
+Kehä = float(input("Anna Kehä= "))
 
-area = pi * r ** 2
+PintaAla = pi * Kehä ** 2
 
-print(area)
+print(PintaAla)
