@@ -6,6 +6,7 @@ Summa = Num1 + Num2 + Num3
 
 Tulo = Num1 * Num2 * Num3
 
+Keskiarvo = (Num1 + Num2 + Num3) / 3
 
 
-print("Numeroiden summa on = ", Summa , "ja Tulo on = ", Tulo)
+print("Numeroiden summa on = ", Summa ,", Tulo on = ", Tulo ," ja keskiarvo on = ", Keskiarvo)
