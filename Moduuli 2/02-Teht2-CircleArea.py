@@ -1,7 +1,8 @@
 from math import pi
 
-Kehä = float(input("Anna Kehä= "))
+Kehä = float(input("Anna Kehä = "))
 
 PintaAla = pi * Kehä ** 2
 
-print(PintaAla)
+print ("Ympyrän pinta-ala on")
+print (PintaAla)
