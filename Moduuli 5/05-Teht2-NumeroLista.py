@@ -20,4 +20,8 @@ FloatList = [float(i) for i in NumeroLista]
 FloatList.sort(reverse=True)
 
 #Metodi Yksi
-print(FloatList[:5])
+# print(FloatList[:5])
+#Metodi Kaksi
+for i in FloatList[:5]:
+    print(i)
+
