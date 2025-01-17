@@ -1,3 +1,3 @@
 Nimi = input("Anna Nimi = ")
 
-print("Mukava tavata, " + Nimi + "!")
+print("Mukava tavata, " + Nimi +"!")

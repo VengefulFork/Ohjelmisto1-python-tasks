@@ -1,3 +1,5 @@
+import math
+
 Num1 = int(input("Anna numero 1 = "))
 Num2 = int(input("Anna numero 2 = "))
 Num3 = int(input("Anna numero 3 = "))
