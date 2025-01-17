@@ -1,4 +1,4 @@
-
+import math
 
 Leiviskät = float(input("Anna leivisköiden määrä = "))
 
