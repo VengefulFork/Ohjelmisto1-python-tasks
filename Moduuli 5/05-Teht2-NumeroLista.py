@@ -25,4 +25,4 @@ Lista.sort()
 for i in NumeroLista[:5]:
     print(i)
 
-print(Lista)
+# print(Lista)
