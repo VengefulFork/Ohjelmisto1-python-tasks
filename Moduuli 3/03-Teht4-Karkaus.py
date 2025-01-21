@@ -14,7 +14,7 @@ while True :
         continue
     break
 
-if (Vuosi % 400 == 0 ) and (Vuosi % 100 == 0):
+if Vuosi % 400 == 0 :
     print("Vuosi",Vuosi,"on karkausvuosi")
 elif (Vuosi % 4 == 0) and (Vuosi % 100 != 0):
     print("Vuosi",Vuosi,"on karkausvuosi")
