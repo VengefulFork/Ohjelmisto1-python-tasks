@@ -2,26 +2,27 @@ import math
 
 loop = "o"
 
-NumeroLista = []
+Lista = []
 
 while loop != "":
     Numero = input("Anna numero jatkaaksesi tai tyhjä lopetaaksesi = ")
     try:
         if float(Numero):
-            NumeroLista.append(Numero)
+            Lista.append(Numero)
 
             continue
     except:
         if Numero == "":
             loop = Numero
 
-FloatList = [float(i) for i in NumeroLista]
+NumeroLista = [float(i) for i in Lista]
 
-FloatList.sort(reverse=True)
-
+NumeroLista.sort(reverse=True)
+Lista.sort()
 #Metodi Yksi
 # print(FloatList[:5])
 #Metodi Kaksi
-for i in FloatList[:5]:
+for i in NumeroLista[:5]:
     print(i)
 
+print(Lista)
