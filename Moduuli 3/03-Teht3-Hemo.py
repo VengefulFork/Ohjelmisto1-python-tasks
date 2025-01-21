@@ -1,19 +1,19 @@
-Sukupuoli = input("Anna sukupuolesi = ")
-Hemo = float(input("Anna Hemoglobiini arvosi = "))
+sukupuoli = input("Anna sukupuolesi = ")
+hemo = float(input("Anna Hemoglobiini arvosi = "))
 
-Sukupuoli = Sukupuoli.lower()
+sukupuoli = sukupuoli.lower()
 
-if Sukupuoli == "nainen" and 117<=Hemo<=175:
+if sukupuoli == "nainen" and 117<=hemo<=175:
     print("Normaali Hemoglobiini arvo naiselle")
-elif Sukupuoli == "nainen" and Hemo<=116:
+elif sukupuoli == "nainen" and hemo<=116:
     print("Alhainen Hemoglobiini arvo naiselle")
-elif Sukupuoli == "nainen" and Hemo>=176:
+elif sukupuoli == "nainen" and hemo>=176:
     print("Korkea Hemoglobiini arvo naiselle")
-elif Sukupuoli == "mies" and 134<=Hemo<=195:
+elif sukupuoli == "mies" and 134<=hemo<=195:
     print("Normaali Hemoglobiini arvo miehelle")
-elif Sukupuoli == "mies" and Hemo<=134:
+elif sukupuoli == "mies" and hemo<=134:
     print("Alhainen Hemoglobiini arvo miehelle")
-elif Sukupuoli == "mies" and Hemo>=196:
+elif sukupuoli == "mies" and hemo>=196:
     print("Korkea Hemoglobiini arvo miehelle")
 else :
     print ("Ei hyväksyttyjä arvoja syötetty kokeile uudestaan")

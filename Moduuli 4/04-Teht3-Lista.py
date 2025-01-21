@@ -2,24 +2,24 @@ import math
 
 loop = "o"
 
-NumeroLista = []
+numero_lista = []
 
 while loop != "":
-    Numero = input("Anna numero jatkaaksesi tai tyhjä lopetaaksesi = ")
+    numero = input("Anna numero jatkaaksesi tai tyhjä lopetaaksesi = ")
     try:
-        if float(Numero):
-            NumeroLista.append(Numero)
+        if float(numero):
+            numero_lista.append(numero)
 
             continue
     except:
-        if Numero == "":
-            loop = Numero
+        if numero == "":
+            loop = numero
 
-FloatList = [float(i) for i in NumeroLista]
+float_list = [float(i) for i in numero_lista]
 
-FloatList.sort()
+float_list.sort()
 
-print("Pienin luku on",FloatList[0],"Suurin luku on",FloatList[-1])
+print("Pienin luku on", float_list[0], "Suurin luku on", float_list[-1])
 
 
 

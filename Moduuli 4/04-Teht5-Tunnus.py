@@ -1,20 +1,20 @@
-Tunnus = "python"
+tunnus = "python"
 
-Salasana = "rules"
+salasana = "rules"
 
-VäärätYritykset = 0
+väärät_yritykset = 0
 
 
-while VäärätYritykset < 5 :
-    TunnusYritys = input("Kirjoita tunnus = ")
+while väärät_yritykset < 5 :
+    tunnus_yritys = input("Kirjoita tunnus = ")
 
-    SalasanaYritys = input("Kirjoita salasana = ")
+    salasana_yritys = input("Kirjoita salasana = ")
 
-    if TunnusYritys == Tunnus and SalasanaYritys == Salasana :
+    if tunnus_yritys == tunnus and salasana_yritys == salasana :
         print("Tervetuloa")
         break
-    elif TunnusYritys != Tunnus or SalasanaYritys != Salasana:
-        VäärätYritykset = VäärätYritykset + 1
+    elif tunnus_yritys != tunnus or salasana_yritys != salasana:
+        väärät_yritykset = väärät_yritykset + 1
         continue
-if VäärätYritykset >=5 :
+if väärät_yritykset >=5 :
     print("Pääsy evätty")

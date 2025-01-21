@@ -1,13 +1,13 @@
-KaupungitLista = []
+kaupungit_lista = []
 
 for i in range(5):
-    Kaupungit = input("Anna kaupungin nimi = ")
-    KaupungitLista.append(Kaupungit)
+    kaupungit = input("Anna kaupungin nimi = ")
+    kaupungit_lista.append(kaupungit)
 
 
-for KaupungitLista in KaupungitLista:
-    print(KaupungitLista)
+for kaupungit_lista in kaupungit_lista:
+    print(kaupungit_lista)
 
 # Tämäkin toimii
-# for i in KaupungitLista[:5]:
-#     print(i)
+for i in kaupungit_lista[:5]:
+    print(i)

@@ -1,22 +1,22 @@
 import math
 
-Leiviskät = float(input("Anna leivisköiden määrä = "))
+leiviskät = float(input("Anna leivisköiden määrä = "))
 
-Naulat = float(input("Anna naulojen määrä = "))
+naulat = float(input("Anna naulojen määrä = "))
 
-Luodit = float(input("Anna luotien määrä = "))
+luodit = float(input("Anna luotien määrä = "))
 #Muunnetaan Leiviskät Nauloiksi
-Muunnos1 = (Leiviskät * 20)
+muunnos1 = (leiviskät * 20)
 #Lisätään muunnetut leiviskät annettuihin nauloihin ja muunnetaan ne luodeiksi
-Muunnos2 = (Naulat + Muunnos1) * 32
+muunnos2 = (naulat + muunnos1) * 32
 #Lisätään muunnetut luoteihin ja muutetaan  ne grammoiksi
-Muunnos3 = float((Muunnos2 + Luodit) * 13.3)
+muunnos3 = float((muunnos2 + luodit) * 13.3)
 #Muunnokset Kiloiksi ja grammoiksi
-Kilot = int(Muunnos3 / 1000)
+kilot = int(muunnos3 / 1000)
 
-Grammat = Muunnos3 % 1000
+grammat = muunnos3 % 1000
 
-Grammat = round(Grammat, 2)
+grammat = round(grammat, 2)
 
-print("Massa modernien mittojen mukaan:",Kilot, "Kiloa", "ja", Grammat, "Grammaa")
+print("Massa modernien mittojen mukaan:", kilot, "Kiloa", "ja", grammat, "Grammaa")
 

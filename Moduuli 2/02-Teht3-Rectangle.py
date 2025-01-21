@@ -1,12 +1,12 @@
 
 import math
 
-Kanta = float(input("Anna suorakulmion kanta = "))
+kanta = float(input("Anna suorakulmion kanta = "))
 
-Korkeus = float(input("Anna suorakulmion korkeus = "))
+korkeus = float(input("Anna suorakulmion korkeus = "))
 
-PintaAla = Kanta * Korkeus
+pinta_ala = kanta * korkeus
 
-Piiri = (Kanta * 2) + (Korkeus * 2)
+piiri = (kanta * 2) + (korkeus * 2)
 
-print("Suorakulmion pinta-ala on ", PintaAla, "ja Piiri on ", Piiri)
+print("Suorakulmion pinta-ala on ", pinta_ala, "ja Piiri on ", piiri)

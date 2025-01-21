@@ -1,14 +1,14 @@
 import math
 
-Num1 = int(input("Anna numero 1 = "))
-Num2 = int(input("Anna numero 2 = "))
-Num3 = int(input("Anna numero 3 = "))
+num1 = int(input("Anna numero 1 = "))
+num2 = int(input("Anna numero 2 = "))
+num3 = int(input("Anna numero 3 = "))
 
-Summa = Num1 + Num2 + Num3
+summa = num1 + num2 + num3
 
-Tulo = Num1 * Num2 * Num3
+tulo = num1 * num2 * num3
 
-Keskiarvo = (Num1 + Num2 + Num3) / 3
+keskiarvo = (num1 + num2 + num3) / 3
 
 
-print("Numeroiden summa on = ", Summa ,", Tulo on = ", Tulo ," ja keskiarvo on = ", Keskiarvo)
+print("Numeroiden summa on = ", summa, ", Tulo on = ", tulo, " ja keskiarvo on = ", keskiarvo)

@@ -3,42 +3,42 @@ import random
 
 
 
-LukkoKoodi1 = (random.sample(range(1,10), 3))
-LukkoKoodi2 = (random.sample(range(1,7), 4))
+lukko_koodi1 = (random.sample(range(1, 10), 3))
+lukko_koodi2 = (random.sample(range(1, 7), 4))
 
-print("\nLukon Yksi koodi on =",LukkoKoodi1,"Lukon kaksi koodi on = ", LukkoKoodi2)
+print("\nLukon Yksi koodi on =", lukko_koodi1, "Lukon kaksi koodi on = ", lukko_koodi2)
 
 
 #Toinen tapa tehdä käyttäen for ja random.randint
-LukkoKoodi3 = []
-LukkoKoodi4 = []
+lukko_koodi3 = []
+lukko_koodi4 = []
 for i in range(3):
     numero = random.randint(1,9)
-    LukkoKoodi3.append(numero)
+    lukko_koodi3.append(numero)
 
 for a in range(4):
     numero2 = random.randint(1,6)
-    LukkoKoodi4.append(numero2)
+    lukko_koodi4.append(numero2)
 
-print("\nToisella tavalla luodut koodit ovat =", LukkoKoodi3,"ja",LukkoKoodi4)
+print("\nToisella tavalla luodut koodit ovat =", lukko_koodi3, "ja", lukko_koodi4)
 
 
 #Kolmas tapa
-LukkoKoodi5 = []
-LukkoKoodi6 = []
+lukko_koodi5 = []
+lukko_koodi6 = []
 
-Toistot = 0
+toistot = 0
 
-while Toistot < 7:
+while toistot < 7:
 
-    if Toistot < 3:
+    if toistot < 3:
         numero3 = random.randint(1,9)
-        LukkoKoodi5.append(numero3)
-        Toistot = Toistot +1
+        lukko_koodi5.append(numero3)
+        toistot = toistot + 1
         continue
-    elif Toistot < 7:
+    elif toistot < 7:
         numero4 = random.randint(1,6)
-        LukkoKoodi6.append(numero4)
-        Toistot = Toistot +1
+        lukko_koodi6.append(numero4)
+        toistot = toistot + 1
 
-print("\nKolmanella Tavalla luodut ovat =",LukkoKoodi5,"ja",LukkoKoodi6)
+print("\nKolmanella Tavalla luodut ovat =", lukko_koodi5, "ja", lukko_koodi6)

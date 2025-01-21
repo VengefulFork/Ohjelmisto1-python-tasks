@@ -1,22 +1,22 @@
 
 while True :
-    Vuosi = input("Syötä vuosi = ")
+    vuosi = input("Syötä vuosi = ")
     try:
-        Vuosi = int(Vuosi)
+        vuosi = int(vuosi)
 
     except:
         print("Ole hyvä ja syötä vuosi numeroina")
 
         continue
 
-    if Vuosi < 1 :
+    if vuosi < 1 :
         print("Anna positiivinen vuosiluku")
         continue
     break
 
-if Vuosi % 400 == 0 :
-    print("Vuosi",Vuosi,"on karkausvuosi")
-elif (Vuosi % 4 == 0) and (Vuosi % 100 != 0):
-    print("Vuosi",Vuosi,"on karkausvuosi")
+if vuosi % 400 == 0 :
+    print("Vuosi", vuosi, "on karkausvuosi")
+elif (vuosi % 4 == 0) and (vuosi % 100 != 0):
+    print("Vuosi", vuosi, "on karkausvuosi")
 else :
-    print("Vuosi",Vuosi,"ei ole karkausvuosi")
+    print("Vuosi", vuosi, "ei ole karkausvuosi")

@@ -1,23 +1,23 @@
 import random
 
-Numero = random.randint(1,10)
-# Numero = 5
+numero = random.randint(1, 10)
+
 
 while True:
-    Arvaus = (input("Arvaa numero = "))
+    arvaus = (input("Arvaa numero = "))
     try:
-        Arvaus = int(Arvaus)
+        arvaus = int(arvaus)
     except :
         print("Syötä numero kiitos")
         continue
 
-    if Arvaus > Numero:
+    if arvaus > numero:
         print("Arvaus on Suurempi kuin vastaus")
         continue
-    elif Arvaus < Numero:
+    elif arvaus < numero:
         print("Arvaus on pienempi kuin vastaus")
         continue
-    elif Arvaus == Numero:
-        print("Arvasit oikein! Vastaus oli",Numero)
+    elif arvaus == numero:
+        print("Arvasit oikein! Vastaus oli", numero)
         break
 

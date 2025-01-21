@@ -2,8 +2,8 @@ import math
 import random
 
 
-NoppaMäärä = int(input("Anna noppien määrä numeroin = "))
+noppa_määrä = int(input("Anna noppien määrä numeroin = "))
 
-for i in range(NoppaMäärä):
+for i in range(noppa_määrä):
     print(random.randint(1,6))
 

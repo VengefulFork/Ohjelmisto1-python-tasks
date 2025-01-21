@@ -1,15 +1,15 @@
 import math
-Lippu = True
-Luku = int(input("Anna luku = "))
+lippu = True
+luku = int(input("Anna luku = "))
 
-if Luku > 1:
+if luku > 1:
 
-        for i in range(2, Luku):
-                if (Luku % i ) == 0:
-                        Lippu = False
+        for i in range(2, luku):
+                if (luku % i) == 0:
+                        lippu = False
 
 
-if Lippu:
+if lippu:
         print("On alkuluku")
 else :
         print("Ei ole alkuluku")
