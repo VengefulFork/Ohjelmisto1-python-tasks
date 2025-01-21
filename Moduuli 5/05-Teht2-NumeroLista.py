@@ -1,10 +1,10 @@
 import math
 
-loop = "o"
+loop = True
 
 Lista = []
 
-while loop != "":
+while loop :
     Numero = input("Anna numero jatkaaksesi tai tyhjä lopetaaksesi = ")
     try:
         if float(Numero):
@@ -13,7 +13,7 @@ while loop != "":
             continue
     except:
         if Numero == "":
-            loop = Numero
+            loop = False
 
 NumeroLista = [float(i) for i in Lista]
 
