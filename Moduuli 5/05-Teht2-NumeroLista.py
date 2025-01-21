@@ -2,7 +2,7 @@ import math
 
 loop = "o"
 
-Lista = [0.0]
+Lista = []
 
 while loop != "":
     Numero = input("Anna numero jatkaaksesi tai tyhjä lopetaaksesi = ")
@@ -18,11 +18,11 @@ while loop != "":
 NumeroLista = [float(i) for i in Lista]
 
 NumeroLista.sort(reverse=True)
-Lista.sort()
+# Lista.sort()
 #Metodi Yksi
 # print(FloatList[:5])
 #Metodi Kaksi
 for i in NumeroLista[:5]:
     print(i)
 
-print(Lista)
+# print(Lista)
