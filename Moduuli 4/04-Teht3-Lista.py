@@ -33,11 +33,11 @@ print ("Suurin luku on",suurin_luku, "Pienin luku on",  pienin_luku)
 
 # Listaa käyttäen toisenlainen ratkaisu
 
-# loop = "o"
+# loop2 = "o"
 #
 # numero_lista = []
 #
-# while loop != "":
+# while loop2 != "":
 #     numero = input("Anna numero jatkaaksesi tai tyhjä lopetaaksesi = ")
 #     try:
 #         if float(numero):
@@ -46,7 +46,7 @@ print ("Suurin luku on",suurin_luku, "Pienin luku on",  pienin_luku)
 #             continue
 #     except:
 #         if numero == "":
-#             loop = numero
+#             loop2 = numero
 #
 # numero_lista.sort()
 # print("Pienin luku on", numero_lista[0], "Suurin luku on", numero_lista[-1])
