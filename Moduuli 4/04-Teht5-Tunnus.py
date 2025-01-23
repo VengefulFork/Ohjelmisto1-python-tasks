@@ -15,6 +15,7 @@ while väärät_yritykset < 5 :
         break
     elif tunnus_yritys != tunnus or salasana_yritys != salasana:
         väärät_yritykset = väärät_yritykset + 1
+        print("Salasana tai tunnus väärin yritä uudellen")
         continue
 if väärät_yritykset >=5 :
     print("Pääsy evätty")
