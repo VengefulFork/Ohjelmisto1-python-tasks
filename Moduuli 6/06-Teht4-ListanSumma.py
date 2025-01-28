@@ -1,17 +1,19 @@
 import math
 import random
 
-lista = random.sample(range(1,100),random.randint(3,6))
+# Numero listan luominen
+numero_lista = random.sample(range(1,101),random.randint(3,6))
 
-lista.sort()
+# Funktio listan numeroiden summan laskemiseen
+def summa_funktio(numero_lista):
+    listan_summa = 0
 
-listan_summa = sum(lista)
-listan_summa2 = 0
-
-for i in lista :
-    listan_summa2 += i
+    for i in numero_lista:
+        listan_summa += i
+    return listan_summa
 
 
-print(lista)
-print(listan_summa)
-print(listan_summa2)
+# Printataan koko lista, jotta voidaan tarkistaa onko annettu summa oikea
+print("Lista numeroita",numero_lista)
+# Kutsutaan funktio ja printataan sen antama tulos
+print("\nListan numeroiden summa",summa_funktio(numero_lista))
