@@ -3,7 +3,7 @@ import math
 loop = True
 
 lista = []
-
+    
 while loop :
     numero = input("Anna numero jatkaaksesi tai tyhjä lopetaaksesi = ")
     try:
