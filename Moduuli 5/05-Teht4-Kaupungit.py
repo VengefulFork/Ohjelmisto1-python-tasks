@@ -8,6 +8,3 @@ for i in range(5):
 for kaupungit_lista in kaupungit_lista:
     print(kaupungit_lista)
 
-# Tämäkin toimii
-for i in kaupungit_lista[:5]:
-    print(i)
