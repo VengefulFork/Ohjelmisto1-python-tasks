@@ -1,9 +1,6 @@
 import math
 import random
 
-# Luodaan lista kokonaislukuja
-alkuperäinen_lista = random.sample(range(1, 101), random.randint(3, 7))
-
 # Funktio toisen listan luomiseen joka ei sisällä parittomia lukuja
 def karsija(alkuperäinen_lista):
     karsittu_lista = []
@@ -14,6 +11,9 @@ def karsija(alkuperäinen_lista):
 
 
     return karsittu_lista
+
+# Luodaan lista kokonaislukuja
+alkuperäinen_lista = random.sample(range(1, 101), random.randint(3, 7))
 
 print("Alkuperäinen kaikki luvut sisältävä lista",alkuperäinen_lista)
 print("Ei parittomia lukuja sisältävä list",karsija(alkuperäinen_lista))
