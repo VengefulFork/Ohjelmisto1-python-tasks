@@ -3,7 +3,7 @@ lippu = True
 luku = int(input("Anna luku = "))
 
 if luku > 1:
-        for i in range(2, luku):
+        for i in range(2, luku//2):
                 if (luku % i) == 0:
                         lippu = False
 
