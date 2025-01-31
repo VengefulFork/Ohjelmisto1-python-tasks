@@ -19,8 +19,8 @@ while loop :
 lista.sort(reverse=True)
 # Lista.sort()
 #Testausta varten
-print(lista[:5])
-#Varsinainen printtaus
+# print(lista[:5])
+#Varsinainen tulostus
 for i in lista[:5]:
     print(i)
 
