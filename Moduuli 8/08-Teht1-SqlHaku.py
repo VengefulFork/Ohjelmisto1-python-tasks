@@ -2,10 +2,10 @@ import mariadb
 
 def sqlkomento (icao):
     sql = f"SELECT name, municipality FROM airport where ident = '{icao}'"
-    kursori = yhteys.cursor()
-    kursori.execute(sql)
-    tulos = kursori.fetchall()
-    if kursori.rowcount >0 :
+    curs = yhteys.cursor()
+    curs.execute(sql)
+    tulos = curs.fetchall()
+    if curs.rowcount >0 :
         for rivi in tulos:
             print(f"ICAO koodia vastaava kenttä on {rivi[0]} ja sijantikunta {rivi[1]}")
     return
