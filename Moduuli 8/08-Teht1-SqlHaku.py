@@ -1,10 +1,6 @@
 import mariadb
 import sys
 
-
-
-
-
 def sqlkomento (icao):
     sql = f"SELECT name, municipality FROM airport where ident = '{icao}'"
     kursori = yhteys.cursor()
