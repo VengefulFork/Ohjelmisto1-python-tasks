@@ -35,6 +35,8 @@ long2 = radians(koordinaatit(icao)[1])
 # print(lat1, long1)
 # print(lat2, long2)
 
+
+# Alempana oleva matematiikka on seuraavasta vastauksesta ylpeästi "lainattu" https://stackoverflow.com/a/19412565
 # Maan säde
 r = 6378.1
 
