@@ -1,3 +1,5 @@
+# Tämä ohjelma toimisi jos saisin geopy:n toimimaan tässä projekti ympäristössä jostain syystä ei toimi
+
 import mariadb
 from geopy import distance
 
