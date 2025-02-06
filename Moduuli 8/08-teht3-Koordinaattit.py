@@ -1,5 +1,5 @@
 import mariadb
-
+from geopy import distance
 
 yhteys = mariadb.connect(
         host='localhost',
@@ -26,4 +26,5 @@ icao = input("Syötä kentän kaksi icao koodi = ").upper()
 
 kenttä2 = koordinaatit(icao)
 
-print(kenttä1, "\n",kenttä2)
+print(distance.distance(kenttä1, kenttä2).km)
+
