@@ -18,7 +18,7 @@ def haku (iso_koodi):
     tulos = curs.fetchall()
 
     for rivi in tulos :
-        print(f"Suomessa on {rivi[0]} kenttätyyppiä, {rivi[1]} kappaletta")
+        print(f"Maassa {iso_koodi} on {rivi[0]} kenttätyyppiä, {rivi[1]} kappaletta")
 
     return
 
