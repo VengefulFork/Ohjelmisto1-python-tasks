@@ -1,5 +1,3 @@
-# Tämä ohjelma toimisi jos saisin geopy:n toimimaan tässä projekti ympäristössä jostain syystä ei toimi
-
 import mariadb
 from geopy import distance
 
@@ -28,5 +26,8 @@ icao = input("Syötä kentän kaksi icao koodi = ").upper()
 
 kenttä2 = koordinaatit(icao)
 
-print(distance.distance(kenttä1, kenttä2).km)
+etäisyys = distance.distance(kenttä1, kenttä2).km
+
+print("Kenttien välinen etäisyys on", round(etäisyys, 3),"kilometriä")
+
 
