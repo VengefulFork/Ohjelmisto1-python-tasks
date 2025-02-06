@@ -10,18 +10,14 @@ while käsky != "lopeta":
     käsky = käsky.lower()
 
     if käsky == "lisää" :
-        icao = str(input("\nAnna lentokentän ICAO koodi = "))
+        icao = str(input("\nAnna lentokentän ICAO koodi = ")).upper()
 
-        icao.upper()
-
-        kentän_nimi = str(input("\nAnna lentokentän nimi = "))
-
-        kentän_nimi.capitalize()
+        kentän_nimi = str(input("\nAnna lentokentän nimi = ")).capitalize()
 
         lentokentät[icao] = kentän_nimi
 
     if käsky == "hae" :
-        icao = str(input("Anna lentokentän ICAO koodi hakeaksesi = "))
+        icao = str(input("Anna lentokentän ICAO koodi hakeaksesi = ")).upper()
 
         if icao in lentokentät:
 
